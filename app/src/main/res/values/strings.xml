@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nuro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_language_select">LanguageSelect</string>
+    <!-- Languages name -->
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">Hindi</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">Japanese</string>
+    <string name="russian">Russian</string>
+    <string name="korean">Korean</string>
+    <string name="german">German</string>
+    <string name="turkish">Turkish</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">Italian</string>
+    <string name="arabic">العربية</string>
+    <!-- Theme Selection -->
+    <string name="title_activity_theme_select">ThemeSelect</string>
+
+    <!-- Login Screen -->
+    <string name="LoginWithfacebook">Sign In with Facebook </string>
+    <string name="LoginWithtwitter">Sign In with Twitter</string>
+    <string name="LoginWithGoogleplus">Sign In with Google+</string>
+    <string name="LoginWithLinkedIn">Sign In with LinkedIn</string>
+    <string name="AlreadyHaveAccount">Already have an Account?</string>
+    <string name="TermsnConditions">Terms and Conditions</string>
+    <string name="PrivacyPolicy">Privacy Policy</string>
+
+    <!-- Sign In Page -->
+    <string name="Signin">Sign In</string>
+
+    <!-- Select Theme Page -->
+    <string name="Light">Light</string>
+    <string name="Dark">Dark</string>
+    <string name="SelectTheme">Select Theme</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_brain_profile">BrainProfile</string>
+    <string name="over_view">OverView</string>
+    <string name="history">History</string>
+    <string name="Statistics">Statistics</string>
+    <string name="title_activity_select_language">SelectLanguage</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="average_neuron_index">Average Neuron Index(ANI)</string>
+    <string name="brain_workout_distribution">Brain Workout Distribution</string>
+    <string name="title_activity_comparision">Comparision</string>
+    <string name="title_activity_leaders_board">LeadersBoard</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edlogiq.neurongym.neurongym" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BrainProfile"
+            android:label="@string/title_activity_brain_profile" >
+        </activity>
+        <activity
+            android:name=".SelectLanguage"
+            android:label="@string/title_activity_select_language" >
+        </activity>
+        <activity
+            android:name=".SignInActivity"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name=".ThemeSelect"
+            android:label="@string/title_activity_theme_select" >
+        </activity>
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page" >
+        </activity>
+        <activity
+            android:name=".Comparision"
+            android:label="@string/title_activity_comparision" >
+        </activity>
+        <activity
+            android:name=".LeadersBoard"
+            android:label="@string/title_activity_leaders_board" >
+        </activity>
+    </application>
+
+</manifest>

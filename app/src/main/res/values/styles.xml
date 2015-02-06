@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+
+    </style>
+
+
+
+
+
+    <!-- Style to use for ALL text com.edlogiq.nuro.nuro.views (including FontTextView) -->
+   <!-- <style name="MyTextViewStyle"
+        parent="@android:style/Widget.Holo.Light.TextView">
+        <item name="android:textAppearance">@style/MyTextAppearance</item>
+    </style>
+
+    &lt;!&ndash; Text appearance to use for ALL text com.edlogiq.nuro.nuro.views (including FontTextView) &ndash;&gt;
+    <style name="MyTextAppearance" parent="@android:style/TextAppearance.Holo">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FF002DB3</item>
+        <item name="font">aspergit</item>
+    </style>-->
+</resources>

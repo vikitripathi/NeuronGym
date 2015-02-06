@@ -1,0 +1,204 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.edlogiq.neurongym.neurongym.HomePage">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/linearLayout1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:elevation="8dp"
+            android:background="@color/text_color"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/linearLayout2">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Layout left for Nuro Logo"
+                android:textSize="25sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:id="@+id/textView15" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_below="@+id/linearLayout2"
+            android:id="@+id/linearLayout3"
+            android:layout_gravity="center_horizontal">
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout4"
+                android:weightSum="2"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal">
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/linearLayout6">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/relativeLayout1">
+
+                        <com.gc.materialdesign.views.ButtonFloatSmall
+                            android:id="@+id/buttonFloatSmall1"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="#f44336"
+                            android:elevation="5dp"
+                            materialdesign:iconDrawable="@drawable/game"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true" />
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_below="@+id/linearLayout6"
+                    android:id="@+id/linearLayout7">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/relativeLayout3">
+
+
+                        <com.gc.materialdesign.views.ButtonFloatSmall
+                            android:id="@+id/buttonFloat_brain_profile"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="#3f51b5"
+                            android:elevation="5dp"
+                            materialdesign:iconDrawable="@drawable/brain_profile"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:layout_below="@+id/linearLayout4"
+                android:id="@+id/linearLayout5"
+                android:layout_gravity="center_horizontal">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/linearLayout8">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/relativeLayout4">
+
+
+                        <com.gc.materialdesign.views.ButtonFloatSmall
+                            android:id="@+id/buttonFloat_comparision"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="#4caf50"
+                            android:elevation="5dp"
+                            materialdesign:iconDrawable="@drawable/compare"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:id="@+id/linearLayout9">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/relativeLayout5">
+
+
+                        <com.gc.materialdesign.views.ButtonFloatSmall
+                            android:id="@+id/buttonFloat_leaders_board"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:background="#e91e63"
+                            android:elevation="5dp"
+                            materialdesign:iconDrawable="@drawable/leaders_board"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

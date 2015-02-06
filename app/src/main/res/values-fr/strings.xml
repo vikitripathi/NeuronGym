@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Nuro</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="title_activity_language_select">Langue Sélectionner</string>
+    <!-- Languages name -->
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">Hindi</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">Japanese</string>
+    <string name="russian">Russian</string>
+    <string name="korean">Korean</string>
+    <string name="german">German</string>
+    <string name="turkish">Turkish</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">Italian</string>
+    <string name="arabic">Arabic</string>
+    <!--Theme Selection-->
+    <string name="title_activity_theme_select">Sélectionner Thème</string>
+
+    <!--Login Screen-->
+    <string name="LoginWithfacebook">Connectez-vous avec Facebook</string>
+    <string name="LoginWithtwitter">Connectez-vous avec Twitter</string>
+    <string name="LoginWithGoogleplus">Connectez-vous avec Google+</string>
+    <string name="LoginWithLinkedIn">Connectez-vous avec LinkedIn</string>
+
+    <string name="AlreadyHaveAccount">Vous avez déjà un compte?</string>
+    <string name="TermsnConditions">Termes et Conditions</string>
+    <string name="PrivacyPolicy">Politique de Confidentialité</string>
+
+    <!--Sign In Page-->
+    <string name="Signin">Connectez-vous</string>
+
+    <!--Select Theme Page-->
+    <string name="Light">Lumière</string>
+    <string name="Dark">Obscurité</string>
+    <string name="SelectTheme">Select Theme</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+
+
+</resources>

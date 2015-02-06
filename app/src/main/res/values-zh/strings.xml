@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">神经元</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">设置</string>
+    <string name="title_activity_language_select">选择语言</string>
+    <!-- Languages name -->
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">Hindi</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">Japanese</string>
+    <string name="russian">Russian</string>
+    <string name="korean">Korean</string>
+    <string name="german">German</string>
+    <string name="turkish">Turkish</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">Italian</string>
+    <string name="arabic">العربية</string>
+    <!--Theme Selection-->
+    <string name="title_activity_theme_select">选择主题</string>
+
+    <!--Login Screen-->
+    <string name="LoginWithfacebook">使用Facebook登录/使用脸书登陆</string>
+    <string name="LoginWithtwitter">使用Twitter登录/使用推特登陆</string>
+    <string name="LoginWithGoogleplus">使用Google登录/使用谷歌登陆</string>
+    <string name="LoginWithLinkedIn">使用Linkedin登录/使用领英登陆</string>
+
+    <string name="AlreadyHaveAccount">已经有一个账户？</string>
+    <string name="TermsnConditions">条款和规定</string>
+    <string name="PrivacyPolicy">隐私政策</string>
+
+    <!--Sign In Page-->
+    <string name="Signin">登入</string>
+
+    <!--Select Theme Page-->
+    <string name="Light">亮</string>
+    <string name="Dark">暗</string>
+    <string name="SelectTheme">Select Theme</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+
+
+</resources>

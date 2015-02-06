@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">العصبية</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="title_activity_language_select">اختر اللغة</string>
+    <!-- Languages name -->
+    <string name="english">English</string>
+    <string name="spanish">Español</string>
+    <string name="hindi">Hindi</string>
+    <string name="chinese">中文</string>
+    <string name="french">Français</string>
+    <string name="japanese">Japanese</string>
+    <string name="russian">Russian</string>
+    <string name="korean">Korean</string>
+    <string name="german">German</string>
+    <string name="turkish">Turkish</string>
+    <string name="portuguese">Português</string>
+    <string name="italian">Italian</string>
+    <string name="arabic">العربية</string>
+    <!--Theme Selection-->
+    <string name="title_activity_theme_select">اختر الشكل</string>
+
+    <!--Login Screen-->
+    <string name="LoginWithfacebook">قم بتسجيل الدخول في الفيسبوك</string>
+    <string name="LoginWithtwitter">قم بتسجيل الدخول في تويتر</string>
+    <string name="LoginWithGoogleplus">قم بتسجيل الدخول في جوجل</string>
+    <string name="LoginWithLinkedIn">قم بتسجيل الدخول في ينكدين</string>
+
+    <string name="AlreadyHaveAccount">لديك حساب مسبقا؟</string>
+    <string name="TermsnConditions">الأحكام والشروط</string>
+    <string name="PrivacyPolicy">سياسة الخصوصية</string>
+
+    <!--Sign In Page-->
+    <string name="Signin">تسجيل الدخول </string>
+
+    <!--Select Theme Page-->
+    <string name="Light">مضيء</string>
+    <string name="Dark">مظلم</string>
+    <string name="SelectTheme">اختر الموضوع</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+</resources>
